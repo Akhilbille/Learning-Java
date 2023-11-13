@@ -28,10 +28,14 @@ public class J2ReadInput {
 /*         That's because the Scanner.nextInt method does not read the newline character in your input created by hitting "Enter," and so the call to Scanner.nextLine returns after reading that newline.
 
 You will encounter the similar behaviour when you use Scanner.nextLine after Scanner.next() or any Scanner.nextFoo method (except nextLine itself).*/ 
+
+
+// nextLine() use input. next() , that should solve the problem. In order to avoid the issue, use nextLine(); immediately after nextInt(); as it helps in clearing out the buffer. When you press ENTER the nextInt(); does not capture the new line and hence, skips the Scanner code later
+
         String fname = sc.nextLine();
         System.out.println("Welcome Mr. "+ name);
         System.out.println("Welcome Mr."+ fname);
 
         
-    }    
+    } 
 }
