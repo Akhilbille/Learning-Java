@@ -31,5 +31,7 @@ You will encounter the similar behaviour when you use Scanner.nextLine after Sca
         String fname = sc.nextLine();
         System.out.println("Welcome Mr. "+ name);
         System.out.println("Welcome Mr."+ fname);
+
+        
     }    
 }
