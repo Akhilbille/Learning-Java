@@ -8,6 +8,11 @@ public class J4Variables {
         double d = 12.3;
         char c = 'A';
         String str = "Akhil";
+        byte bin = 0x10;
+        float fc = 'a';
+        System.out.println(fc);
+
+        System.out.println(bin);
 
         System.out.println("Bytes: " + b);
         System.out.println("Char: " + (s-c));
